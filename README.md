@@ -4,5 +4,5 @@ Just standard R,P,S Game, but you gain trophy if you win and lose trophy if you 
 
 ## How to play?
 
-### Clone projects
-### Run game.py
+### 1. Clone projects
+### 2. Run game.py
