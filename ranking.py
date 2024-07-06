@@ -21,7 +21,7 @@ def title(trophy):
         rank = "Heavenly Harbringer"
         return rank
     elif trophy < 3000:
-        rank = "Impermenance Incarnation"
+        rank = "Irreplecable Incarnation"
         return rank
     elif trophy < 4000:
         rank = "Jesterous Jackalope"
@@ -29,12 +29,12 @@ def title(trophy):
     elif trophy < 5000:
         rank = "Kingslayer of Kings"
         return rank
-    elif trophy > 5000:
+    elif 5000 < trophy < 6000:
         rank = "Last Lord"
         return rank
     else:
-        rank = "???"
-        return rank
+        print("??? You lied")
+        exit()
 
 
 def trophy_gain(winner, trophy):
